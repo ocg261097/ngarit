@@ -28,28 +28,3 @@ Built with **Python**, **OpenCV**, **Tesseract OCR**, and **CustomTkinter** for 
 - Android devices connected via ADB (USB or WiFi)
 
 
-
-<config>
-  <!-- Target chip value before marking done -->
-  <done>200000000</done>
-
-  <!-- Delay after login (seconds) -->
-  <tunggu>5</tunggu>
-
-  <!-- Target app package -->
-  <package>com.neptune.domino</package>
-
-  <!-- Restart mode (restart / back_menu) -->
-  <modrestart>restart</modrestart>
-
-  <paths>
-    <!-- Working directories -->
-    <proses>data/proses</proses>
-    <bonus_habis>data/bonus_habis</bonus_habis>
-    <diblokir>data/diblokir</diblokir>
-    <done>data/done</done>
-    <targz>data/targz</targz>
-    <failed>data/failed</failed>
-    <level_rendah>data/level_rendah</level_rendah>
-  </paths>
-</config>
